@@ -88,7 +88,7 @@ serviceusage.googleapis.com \
 cloudresourcemanager.googleapis.com \
 aiplatform.googleapis.com \
 artifactregistry.googleapis.com \
-cloudresourcemanager.googleapis.com
+cloudresourcemanager.googleapis.com \
 sqladmin.googleapis.com \
 storage-api.googleapis.com \
 sql-component.googleapis.com \
