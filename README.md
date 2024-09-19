@@ -62,7 +62,7 @@ There are 3 tables:
 ## Getting Started
 Set project ID
 ```sh
-PROJECT_ID=<set project id>
+export PROJECT_ID=<set project id>
 ```
 If you are using Langchain, go to Langsmith, create an account and get an API key. Set the following environment variables. You can also choose to not use langsmith. 
 In case set LANGCHAIN_TRACING_V2 to false.
