@@ -54,22 +54,20 @@ APP_VERSION=v1_go
 # Define bash args
 while [ "$1" != "" ]; do
     case $1 in
-        --backend | -b )      shift
-                                BACKEND=$1
-                                ;;
-        --skipinfra  | -i )      shift
-                                skip_infra
-                                ;;
-        --skipapp  | -a )      shift
-                                skip_app
-                                ;;
-        --help | -h )           usage
-                                exit
-                                ;;
-
-        
+        --backend | -b )    shift
+                            BACKEND=$1
+                            shift
+                            ;;
+        --skipinfra  | -i ) shift
+                            skip_infra
+                            ;;
+        --skipapp  | -a )   shift
+                            skip_app
+                            ;;
+        --help | -h )       usage
+                            exit
+                            ;;
     esac
-    shift
 done
 
 
